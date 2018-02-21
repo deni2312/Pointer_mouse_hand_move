@@ -2,6 +2,7 @@
 SHELL = /bin/sh
 CXX = g++
 CXXFLAGS = -lX11 \
+		   -lXtst \
 		   -lopencv_core \
 		   -lopencv_imgproc \
 		   -lopencv_videoio \
